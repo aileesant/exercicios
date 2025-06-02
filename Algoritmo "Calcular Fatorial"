@@ -1,0 +1,18 @@
+Var
+     funcao fatorial (v: inteiro) : inteiro
+        inicio
+        se v <= 2 entao
+        retorne v
+        senao
+        retorne v * fatorial (v-1)
+        fimse
+   fimfuncao
+   
+   
+   numero : inteiro
+
+Inicio
+  escreval("Digite um número para descobrir o FATORIAL:")
+  leia(numero)
+  escreval(fatorial(numero))
+Fimalgoritmo
