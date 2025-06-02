@@ -1,0 +1,31 @@
+Var
+    valor, desconto, total: real
+
+Inicio
+
+escreval("Informe o valor da compra:")
+leia(valor)
+
+se valor <= 100 entao
+   desconto := 0
+senao
+     se valor <= 200 entao
+        desconto:= (valor * 2.5)/100
+   senao
+        se valor <= 300 entao
+            desconto:= (valor * 5)/100
+        senao
+             se valor <= 450 entao
+                desconto:= (valor * 10)/100
+             senao
+                  desconto:= (valor * 20)/100
+             fimse
+          fimse
+      fimse
+ fimse
+
+ total := valor - desconto
+ escreval("O valor da compra é: R$ ", valor)
+ escreval("O valor do desconto é: R$ ", desconto)
+ escreval("O valor total da compra é: R$ ", total)
+Fimalgoritmo
