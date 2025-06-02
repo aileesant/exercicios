@@ -1,0 +1,34 @@
+Var
+  // MATRIZ 2 linhas e 5 colunas
+  livro: vetor[0..1,0..4] de caractere
+  ano: vetor[0..1,0..4] de inteiro
+
+  indiceLinha, indiceColuna: inteiro
+
+Inicio
+
+//LER LIVRO
+escreval("CADASTRO DE LIVROS")
+para indiceLinha de 0 ate 1 faca
+  para indiceColuna de 0 ate 4 faca
+     escreva("Informe o nome do livro: ")
+     leia(livro[indiceLinha, indiceColuna])
+     escreva("Informe o ano do livro: ")
+     leia(ano[indiceLinha, indiceColuna])
+  fimpara
+fimpara
+
+
+//MOSTRAR LIVRO
+escreval("RELAÇÃO DE LIVROS")
+para indiceLinha de 0 ate 1 faca
+  para indiceColuna de 0 ate 4 faca
+    escreval(livro[indiceLinha, indiceColuna] , " - ", ano[indiceLinha, indiceColuna])
+  fimpara
+fimpara
+
+
+//MOSTRAR LIVRO LINHA 2 COLUNA 4
+escreva(livro[1,3])
+
+Fimalgoritmo
