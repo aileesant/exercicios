@@ -1,0 +1,13 @@
+ // Declaração das variiáveis e atribuição dos valores
+nota1: real <- 7.5
+nota2: real <- 8.0
+nota3: real <- 6.5
+nota4: real <- 9.0
+media: real
+
+ // Calcula a média artimética das notas
+media <- (nota1+ nota2 + nota3 + nota4) / 4.0
+
+//Exibe resultado da média
+ Escreva"A média das notas é:", media
+FimAlgoritmo
