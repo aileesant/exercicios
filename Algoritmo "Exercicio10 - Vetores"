@@ -1,0 +1,26 @@
+Var
+  livro: vetor[0..4] de caractere // 0 1 2 3 4
+  ano: vetor[0..4] de inteiro
+
+  indice: inteiro
+  
+Inicio
+
+para indice de 0 ate 4 faca
+
+  escreval("Informe o nome do livro:")
+  leia(livro[indice])
+  
+  escreval("Informe o ano do livro:")
+  leia(ano[indice])
+
+fimpara
+
+limpatela
+escreval("RELAÇÃO DE LIVROS")
+
+para indice de 0 ate 4 faca
+  escreval(livro[indice], " - ", ano[indice])
+fimpara
+
+Fimalgoritmo
